@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jim Sloss Portfolio</title>
+    <link rel ="stylesheet" href="styles.css">
+
+    <!--Google Font: libre baskerville  -->
+    <link rel = "stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+    <!--Google Font: Rock Salt  -->
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Jim Sloss</h1>
+        <ol id="menu">
+            <li><a href="#aboutMe" class="menuLink">About Me</a></li>
+            <li><a href="#projectSection" class="menuLink">Projects</a></li>
+            <li><a href="#skillsSection" class="menuLink">Skills</a></li>
+            <li><a href="#contactMe" class="menuLink">Contact</a></li>
+        </ol>
+    </header>
+    <main>
+        <hr>
+        <section id="aboutMe">
+            <div>
+                <h2>About Me</h2>
+                <p>
+                    I'm Jim, an 'entry level' developer who has been on this programming
+                    journey for a long time. I work full time for a tech company in a non tech role,
+                    and I am looking to change that.
+                    <br><br>
+                    I have a BSC Hons in IT & Computing, along with some self taught experience and 
+                    projects created along the way.
+                    <br><br>
+                    Below you can browse some of my previous personal projects and checkout projects I have completed
+                    while following my current Full Stack Developer course with IT Career Switch.
+                    <br><br>
+                    Hopefully I can help you attain your goals, and you can help me attain mine.
+                </p>
+            </div>
+            
+            <img id="pictureOfMe" src="images/me.jpg" alt="A photo of myself, sitting at a table, black shirt on.">
+            
+            
+        </section>
+     
+        <section id="projectSection">
+            <h2 class="banner">Full Stack Developer: Course Projects</h2>
+            <div id="projectlist">
+                <ul>
+                    <li onmouseover="showProject('Style Guide','p1');">Web Design: Style Guide</li>
+                    <li onmouseover="showProject('Display Guide','p2');">Web Design: Display Guide</li>
+                    <li onmouseover="showProject('Jims Pool Club','p3');">Jims Pool Club</li>
+                    <li onmouseover="showProject('Mixed Messages','p4');">Mixed Messages</li>
+                </ul>
+            </div>
+            
+            <div  id="projects">
+                <img id="project" src="images/Style Guide.png" alt="A screenshot of project one, a web site style guide"> <!--onmouseout="hideProject();"> -->
+                <div>
+                    <p id="p1" ><!-- onmouseout="hideProject();"> -->
+                        Part of the Full Stack Engineering course with CodeCademy.
+                        <br><br>
+                        This was intended to be a guide to use when creating websites through
+                        the course, however every website has different requirments. 
+                        <br><br>
+                        So I tend
+                        to dip in and out of this, using what I feel suits the project, rather
+                        than following it to the letter.
+                    </p>
+                    
+                    <p id="p2"  onmouseout="hideProject();">
+                        Part of the Full Stack Engineering course with CodeCademy.
+                        <br><br>
+                        This is another guide created to help with future web projects
+                        but also to help make the display property's positioning attributes 
+                        clearer.
+                        <br><br>
+                        I am very happy with the color scheme on this webpage, I think it
+                        coordinates well.
+                    </p>
+                    
+                    <p id="p3"  onmouseout="hideProject();">
+                        This was an attempt at making a hypothetical local clubs website.
+                        <br><br>
+                        It is a simple design with simple layout but great practice and good
+                        basis to build on with future projects, such as this one.
+                        <br><br>
+                        I have a pool table and enjoy playing pool, so maybe I can build on
+                        this site at a later stage for my own use.
+                    </p>
+                    
+                    <p id="p4"  onmouseout="hideProject();">
+                        Really enjoyed this one!
+                        <br><br>
+                        First real attempt at creating a website which incorporated JavaScript
+                        and user interaction. Here you press the Get A Quote button and a new 
+                        hero appears with a quote. A message is displayed as to wether they match
+                        or not. 
+                        <br><br>
+                        This was intended to be a collaborative project, but as I was unable to 
+                        find a coding partner I completed the project independently.
+                    </p>
+                </div>
+            </div>            
+        </section>
+
+        <section id="personalProjectSection">
+            <h2 class="banner">Personal WordPress Projects;</h2>
+            <ul>
+                <li>Portfolio Version One</li>
+                <li>JS Pencil Portraits</li>
+                <li>Karens Childcare</li>
+            </ul>
+            <div  id="personalProjects"> 
+                <a href= "https://jimsloss.uk/" target="_blank">
+                    <img class="personalproject" src="images/portfolio1.png" alt="A screenshot of project five, my first portfolio">
+                </a>
+                <a href= "https://www.jspencilportraits.co.uk/" target="_blank">
+                    <img class="personalproject" src="images/jspp.png" alt="A screenshot of project six, my drawing website">
+                </a>
+                <a href= "https://karenschildcare.co.uk/" target="_blank">
+                    <img class="personalproject" src="images/karensChildcare.png" alt="A screenshot of project seven, karens Childcare">
+                </a>
+               
+            </div>
+            <div id="personalParas">
+                <p>
+                    My first attempt at a portfolio.
+                </p>
+                <p>
+                    My other hobby, Commissioned Pencil Portraits.
+                </p>
+                <p>
+                    My wifes other job, Wedding Childcare.
+                </p>
+            </div>            
+        </section>
+        <hr id="hr2">
+
+        <section id="skillsSection">
+            <div id="skills">
+                <img class="skill" src="images/skills/html5.png" alt="html5 icon">
+                <img class="skill" src="images/skills/css3.png" alt="css3 icon">
+                <img class="skill" src="images/skills/javascript.png" alt="javascript icon">
+                <img class="skill" src="images/skills/python.png" alt="python icon">
+                <img class="skill" src="images/skills/github.png" alt="github icon">
+                <img class="skill" src="images/skills/java.png" alt="java icon">
+                <img class="skill" src="images/skills/excel.png" alt="excel icon">
+            </div>
+        </section>
+
+    </main>
+    <hr id="hr2">
+<br>
+
+<section id = "contactMe">
+
+    <h2 class="banner">Contact Me</h2>
+    <p id="contact">
+        If you like what I do and would like to get in touch, email is best but you can also find me on github, linkedin and instagram.
+    </p>
+    <footer>
+        <span>
+            <img class="contactImage" src="images/skills/email.png" alt="email icon" onclick ="sendEmail();">   
+        </span>
+        <span>
+            <a href= "https://github.com/jimsloss" target="_blank">
+                <img class="contactImage" src="images/skills/github.png" alt="github icon">
+            </a>       
+        </span>
+        <span>
+            <a href= "https://www.linkedin.com/in/jim-sloss-32a661250/" target="_blank">
+                <img class="contactImage" src="images/skills/linkedin.png" alt="linkedin icon"> 
+            </a>       
+        </span>
+        <span>
+            <a href= "https://www.instagram.com/jspencilportraits/" target="_blank">
+                <img class="contactImage" src="images/skills/instagram.png" alt="instagram icon"> 
+            </a>   
+        </span>
+    </footer>
+    <br>
+   
+    <hr id="hr2">
+
+</section>
+
+    <br><br>
+
+</body>
+<script src="script.js"></script>
+</html>
