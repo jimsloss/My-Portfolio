@@ -30,7 +30,23 @@ const images = [
 // alert(element);
 function showProject(project, description){
 
-    // hide descriptions first, as one will be unhidden from last call
+    let items = ['b1', 'b2','b3','b4'];
+
+    for (let i = 0; i < items.length; i++) {
+        let toChange = document.getElementById(items[i]);
+        toChange.style.fontSize = "20px";
+        toChange.style.backgroundColor = "grey";
+   }
+  
+        
+    let num = "b" + description[1];
+    let buttonSelected = document.getElementById(num);
+    buttonSelected.style.fontSize = "24px";
+    buttonSelected.style.backgroundColor = "#3f444a";
+
+    
+
+   // hide descriptions first, as one will be unhidden from last call
     document.getElementById("p1").style.display='none';
     document.getElementById("p2").style.display='none';
     document.getElementById("p3").style.display='none';
