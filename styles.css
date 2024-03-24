@@ -73,9 +73,10 @@ header{
 }
 
 #pictureOfMe{
-    width: 40%;
+    padding: 2em;
+    width: 65%;
     height: auto;
-    margin-left: 5em;
+    margin-left: 4em;
 }
 
 /*Section 2: Full Stack Projects*/
@@ -154,9 +155,9 @@ header{
 
 #p1, #p2, #p3, #p4{
     display:none;
-    font-size: 14px;
+    font-size: 1.3em;
     font-weight:200;
-    font-family: 'rock salt';
+    font-family: 'Shadows Into Light';
 
 }
 
